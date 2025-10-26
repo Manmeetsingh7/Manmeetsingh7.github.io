@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- ensures letters and symbols display correctly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mobile-friendly -->
+  <title>Contact Planet Pure</title>
+  <link rel="stylesheet" href="style.css"> <!-- links CSS file for styling -->
+</head>
+
+<body>
+  <!-- Header with navigation -->
+  <header>
+    <h1>Planet Pure</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog_index.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Contact information section -->
+    <section class="contact-info">
+      <h2>Contact Us</h2>
+      <p>If you have questions or want to get involved, you can reach us at:</p>
+      <ul>
+        <li>Email: planetpure@example.com</li>
+        <li>Phone: +1 234 567 --0</li>
+      </ul>
+    </section>
+
+    <!-- Contact form section -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form method="post">
+        <!-- <form> creates a form for user input -->
+        <!-- method="post" specifies HTTP method; no action needed for static page -->
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <!-- Text input for user's name -->
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <!-- Email input; browser validates format -->
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <!-- Multi-line text area for message -->
+
+        <input type="submit" value="Send Message">
+        <!-- Submit button (doesn’t actually send messages in this project) -->
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Planet Pure | Created by Manmeet Singh</p>
+    <!-- 
+      &copy; → displays © symbol
+      2025 → current year
+      Planet Pure → organization name
+      Created by Manmeet Singh → my name
+    -->
+  </footer>
+</body>
+</html>

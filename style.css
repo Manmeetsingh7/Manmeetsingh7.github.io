@@ -1,0 +1,120 @@
+/* ==========================
+   General Page Styles
+========================== */
+body {
+    font-family: Arial, sans-serif; /* readable font */
+    line-height: 1.6;              /* space between lines */
+    margin: 0;                      /* remove default margin */
+    padding: 0;                     /* remove default padding */
+    background-color: #f4f4f4;      /* light gray background */
+    color: #333;                     /* dark text color */
+}
+
+/* ==========================
+   Header Styles
+========================== */
+header {
+    background-color: #4CAF50;  /* green header */
+    color: white;               /* white text in header */
+    padding: 20px 0;            /* vertical padding */
+    text-align: center;         /* center header text */
+}
+
+/* ==========================
+   Navigation Menu
+========================== */
+nav a {
+    color: white;               /* white link color */
+    text-decoration: none;      /* remove underline */
+    margin: 0 15px;             /* space between links */
+    font-weight: bold;          /* bold link text */
+}
+
+nav a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+/* ==========================
+   Main Content
+========================== */
+main {
+    padding: 20px;                        /* space around content */
+    max-width: 800px;                     /* limit width for readability */
+    margin: auto;                         /* center main content */
+    background-color: white;              /* white background for content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* subtle shadow effect */
+}
+
+/* ==========================
+   Headings
+========================== */
+h1, h2 {
+    color: #4CAF50; /* green headings to match header */
+}
+
+/* ==========================
+   Blog List Styling
+========================== */
+.blog-list ul {
+    list-style-type: none; /* remove bullets */
+    padding: 0;            /* remove default padding */
+}
+
+.blog-list li {
+    margin: 10px 0;        /* space between list items */
+}
+
+.blog-list a {
+    color: #333;           /* link color */
+    text-decoration: none; /* remove underline */
+}
+
+.blog-list a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+/* ==========================
+   Form Styling
+========================== */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;              /* full width inputs */
+    padding: 8px;             /* space inside inputs */
+    margin-top: 5px;          /* spacing above input */
+    margin-bottom: 15px;      /* spacing below input */
+    border: 1px solid #ccc;   /* gray border */
+    border-radius: 4px;       /* rounded corners */
+    box-sizing: border-box;   /* include padding in width */
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50; /* green submit button */
+    color: white;               /* white text */
+    padding: 10px 15px;         /* spacing inside button */
+    border: none;               /* remove default border */
+    border-radius: 4px;         /* rounded corners */
+    cursor: pointer;            /* pointer on hover */
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049; /* darker green on hover */
+}
+
+/* ==========================
+   Footer Styling
+========================== */
+footer {
+    text-align: center;      /* center footer text */
+    padding: 15px 0;         /* vertical padding */
+    background-color: #333;  /* dark background */
+    color: white;            /* white text */
+    margin-top: 20px;        /* spacing above footer */
+}
+
+/* ==========================
+   Paragraph Styling
+========================== */
+p {
+    margin-bottom: 15px;     /* space between paragraphs */
+}
