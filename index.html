@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="one.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="guess.jpg" class="game-pic" alt="Game">
+
+    <h2>Guess The Number Game</h2>
+
+    <p>I picked a number from 1 to 100. Try to guess it!</p>
+
+    <input id="guess" type="number" placeholder="Enter your guess">
+
+    <button onclick="check()">Submit Guess</button>
+
+    <p id="result"></p>
+    <p id="tries"></p>
+
+    <button id="again" onclick="reset()" style="display:none;">Play Again</button>
+
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
